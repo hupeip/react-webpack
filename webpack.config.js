@@ -3,16 +3,16 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    // entry: './src/main.js',
-    entry: [
-        'webpack/hot/dev-server',
-        'webpack-dev-server/client?http://localhost:4001',
-        './src/main.js'
-    ],
+    entry: './src/main.js',
+    // entry: [
+    //     'webpack/hot/dev-server',
+    //     'webpack-dev-server/client?http://localhost:4001',
+    //     './src/main.js'
+    // ],
     output: {
-        path: 'public',
+        // path: 'public',
         filename: 'bundle.js',
-        publicPath: '/'
+        // publicPath: '/'
     },
     resolve: {
         extensions: ['', '.js', '.jsx', '.json']

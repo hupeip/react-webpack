@@ -7,6 +7,7 @@ import Test from './views/test'
 import Test1 from './views/test1'
 import Test2 from './views/test2'
 import Repo from './views/Repo'
+import Couter from './views/couter'
 
 
 const routes = (
@@ -18,6 +19,7 @@ const routes = (
             <Route path="test2" component={Test2} />
             <Route path="/menu/:userName/:repoName" component={Repo} />
         </Route>
+        <Route path="couter" component={Couter} />
     </Route>
 );
 export default routes;
