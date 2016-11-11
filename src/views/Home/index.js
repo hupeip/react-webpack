@@ -54,7 +54,7 @@ function selectTodos(todos, filter) {
     }
 }
 
-function select (state) {
+function select (state,ower) {ower.name
     return {
         visibleTodos: state.todos,//selectTodos(state.todos, state.visibilityFilter),
         visibilityFilter: state.visibilityFilter
